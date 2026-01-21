@@ -14,8 +14,8 @@ graph TD
     
     subgraph "Backend (Brain)"
         API -->|Request| Agent[Reasoning Agent]
-        Agent -->|Retrieve| Memory[Memory Manager (FAISS)]
-        Agent -->|Think & Act| LLM[LLM Service (OpenAI)]
+        Agent -->|Retrieve| Memory["Memory Manager (FAISS)"]
+        Agent -->|Think & Act| LLM["LLM Service (OpenAI)"]
         Agent -->|Execute| Tools[Tool Set]
         
         Tools -->|Math| MathTool
