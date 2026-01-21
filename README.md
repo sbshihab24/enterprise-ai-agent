@@ -31,6 +31,8 @@ graph TD
 - **💾 Long-Term Memory**: Stores and retrieves conversation history using Semantic Search (FAISS + SentenceTransformers).
 - **🔌 API-First**: Fully decoupled Backend (FastAPI) and Frontend (Streamlit).
 - **🛡️ Type-Safe**: Strict Pydantic schemas for all data exchanges.
+- **🎨 Premium Enterprise UI**: Modern, responsive dashboard with custom CSS, circular agent icon, and status indicators.
+- **📊 Professional Data Handling**: Transparent handling of real-time data queries with clear disclaimers and simulated reference values.
 
 ## 📂 Project Structure
 
